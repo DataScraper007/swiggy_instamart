@@ -13,3 +13,8 @@ class ProductItem(scrapy.Item):
     price = scrapy.Field()
     discount = scrapy.Field()
     mrp = scrapy.Field()
+    pincode = scrapy.Field()
+
+class urlItem(scrapy.Item):
+    id = scrapy.Field()
+    code = scrapy.Field()
